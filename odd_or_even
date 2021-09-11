@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class OddOrEven {
+        public static void main(String args[]) {
+        	
+        	System.out.println("Enter a number\n");
+        	int ch =2;
+        	
+        	Scanner keyboad = new Scanner(System.in);
+        	int num = keyboad.nextInt();
+        	
+        	switch(ch)
+        	{
+        		case 1 : if(num%2==0) {
+        				   System.out.println(num + " is a EVEN Number");
+        			     }
+        			     break;
+        			
+        		case 2 : if(num%2!=0) 
+        		         {
+    				         System.out.println(num+ "is a odd number");
+    			         }	
+        		         break;
+        		 default : System.out.println("Invalid number");        
+        	}
+
+        	
+      }
+}
