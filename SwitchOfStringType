@@ -1,0 +1,19 @@
+
+public class SwitchOfStringType {
+
+	public static void main(String[] args) {
+		  
+		        String name = "Ayushi";  
+		        switch(name){  
+		        case "Rita":  
+		            System.out.println("I am a girl");  
+		            break;  
+		        case "Rakesh":  
+		            System.out.println("I am a boy");  
+		            break;  
+		        case "Ayushi":  
+		            System.out.println("I am a girl");  
+		        }  
+	}
+
+}
